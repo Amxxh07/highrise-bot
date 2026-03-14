@@ -1,11 +1,9 @@
-from highrise import BaseBot
-from highrise.__main__ import main
-import asyncio
+from highrise import BaseBot, Highrise
+from highrise.models import *
 
 class Bot(BaseBot):
 
     async def on_start(self, session_metadata):
-        print("Bot connected!")
+        print("Bot is online!")
 
-if __name__ == "__main__":
-    asyncio.run(main([Bot()]))
+bot = Bot()
