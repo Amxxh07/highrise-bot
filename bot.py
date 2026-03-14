@@ -1,5 +1,6 @@
 from highrise import BaseBot
 from highrise.__main__ import main
+import asyncio
 
 class Bot(BaseBot):
 
@@ -7,4 +8,4 @@ class Bot(BaseBot):
         print("Bot connected!")
 
 if __name__ == "__main__":
-    main(Bot())
+    asyncio.run(main(Bot()))
