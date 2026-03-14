@@ -8,4 +8,4 @@ class Bot(BaseBot):
         print("Bot connected!")
 
 if __name__ == "__main__":
-    asyncio.run(main(Bot()))
+    asyncio.run(main([Bot()]))
