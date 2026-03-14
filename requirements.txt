@@ -1,0 +1,4 @@
+highrise-bot-sdk
+pendulum==2.1.2
+websockets==10.4
+pydantic==1.10.13
